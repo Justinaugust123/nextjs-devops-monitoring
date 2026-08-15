@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "Justinaugust123/nextjs-devops-monitoring"
+        IMAGE_NAME = "docker.io/Justinaugust123/nextjs-devops-monitoring"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
